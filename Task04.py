@@ -10,11 +10,12 @@
 n = int(input('Введите целое число = '))
 num = []
 while n >= 1:
-    sum = n % 2
+    s = n % 2
     n = n//2
-    num.append(sum)
+    num.append(s)
 print('В двоичной системе: ', end='')
 for i in range(len(num)):
     x = len(num)-i-1
     print(num[x], end='')
+
 
