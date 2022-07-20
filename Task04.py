@@ -8,10 +8,9 @@
 
 
 n = int(input('Введите целое число = '))
-sum = 0
 num = []
 while n >= 1:
-    sum = n - n//2*2
+    sum = n % 2
     n = n//2
     num.append(sum)
 print('В двоичной системе: ', end='')
